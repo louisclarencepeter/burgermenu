@@ -29,10 +29,23 @@ To get a copy of this project up and running on your local machine, follow these
 1. Clone the repository:
 
    ```bash
-   git clone <repository-url>
+   git clone <https://github.com/louisclarencepeter/burgermenu>
 
 ## Usage
 
 1. Open the index.html file in your web browser to view the burger menu in action.
 2. Click on the burger menu icon to toggle the menu's visibility.
 3. Customize the menu items and styles by modifying the HTML and CSS files.
+
+## Customization
+
+You can customize this burger menu to fit your website's needs:
+
+- Menu Items: Edit the <ul> element in the index.html file to add, remove, or change menu items.
+- Styles: Modify the styles.css file to change the menu's appearance, colors, fonts, and more.
+- JavaScript: If you need additional functionality, you can enhance the JavaScript in the script.js file.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
