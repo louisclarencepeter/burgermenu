@@ -1,16 +1,6 @@
-// JavaScript for the burger menu
+const hamburger = document.getElementsByClassName("hamburger")[0]
+const mobileNavs = document.getElementsByClassName("nav-links")[0]
 
-const burgerMenu = document.querySelector('.burger-menu');
-const menu = document.querySelector('.menu');
-
-burgerMenu.addEventListener('click', () => {
-    menu.classList.toggle('show-menu');
-    toggleBars();
-});
-
-function toggleBars() {
-    const bars = document.querySelectorAll('.bar');
-    bars.forEach(bar => {
-        bar.classList.toggle('change');
-    });
-}
+hamburger.addEventListener("click", () => {
+  mobileNavs.classList.toggle("active")
+})
